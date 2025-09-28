@@ -55,3 +55,20 @@ TempConverter/
    ```bash
    git clone https://github.com/salilbhojankar1/TempConverter.git
 
+---
+
+## 👨‍💻 Author
+
+Salil Bhojankar
+
+Portfolio: salilbhojankar1.github.io
+
+GitHub: @salilbhojankar1
+
+LinkedIn: [(Salil Bhojabkar)](https://www.linkedin.com/in/salil-bhojankar-ab12ab238)
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License – free to use, modify, and share.
