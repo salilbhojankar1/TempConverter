@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temprature Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- boxicon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- fontawesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="temperature-converter">
+        <!-- mobile icon -->
+        <div class="mobile">
+          <p>9:41 AM</p>
+          <div class="">
+            <i class="bx bx-signal-4"></i>
+            <i class="bx bx-wifi-2"></i>
+            <i class="bx bxs-battery-charging"></i>
+          </div>
+        </div>
+        <h2 class="title">Temperature Converter</h2>
+
+        <!-- showing result here -->
+        <div class="result">
+          <span class="result-heading">Result (Celsius)</span>
+          <h2 class="celsius-value" id="celsius"></h2>
+        </div>
+
+        <!-- input field -->
+        <div class="degree-type">
+          <!-- for degrees -->
+
+          <div class="degree-field">
+            <label for="degree">Degree</label>
+            <input
+              type="number"
+              name="degree"
+              id="degree"
+             placeholder="0"
+            />
+          </div>
+            <!-- for option selection -->
+             <div class="temp-field">
+            <label for="temp-type">Type</label>
+            <select name="temperatures" id="temp-type" autocomplete="on">
+              <option value="fahrenheit" id="fahrenheit">Fahrenheit</option>
+              <option value="kelvin" id="kelvin">Kelvin</option>
+            </select>
+             </div>
+
+        </div>
+        <button id="convert-btn">Convert</button>
+        
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
